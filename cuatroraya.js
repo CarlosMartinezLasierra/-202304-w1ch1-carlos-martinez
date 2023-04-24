@@ -28,13 +28,13 @@ const gameStart = () => {
     }
     clickCount++;
   }
-    function changeColor(element, player) {
-      if (currentPlayer === 1) {
-        element.classList.add("player1");
-      } else {
-        element.classList.add("player2");
-      }
+  function changeColor(element, player) {
+    if (currentPlayer === 1) {
+      element.classList.add("player1");
+    } else {
+      element.classList.add("player2");
     }
+  }
 
   for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board[i].length; j++) {
@@ -60,7 +60,6 @@ const gameStart = () => {
     message.textContent = `¡El ganador es el jugador ${player}!`;
     messageContainer.style.display = "block";
   }
-
 
   function checkWin() {
     for (let row = 0; row < board.length; row++) {

@@ -91,6 +91,7 @@ button {
   color: #ff69b4;
   text-align: center;
   padding-top: 60px;
+  align-items: center;
 }
 
 .Exit {
@@ -106,4 +107,4 @@ td {
   padding: 10px;
   margin: 10px;
 }
-dd
+
